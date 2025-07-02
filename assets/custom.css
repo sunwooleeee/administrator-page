@@ -1,0 +1,23 @@
+/* assets/custom.css */
+
+/* 모든 Bootstrap 카드에 12px 둥근 모서리를 적용 */
+.card {
+  border-radius: 12px !important;
+  overflow: hidden;  /* 내부 자식도 같이 잘리도록 */
+}
+
+/* 카드 안의 그림자나 배경은 원래대로 유지 */
+.card-body {
+  background-color: #ffffff; /* 필요시 흰 배경 다시 지정 */
+}
+
+/* Dash DataTable 에도 둥근 모서리 적용 (옵션) */
+.dash-table-container {
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+/* Plotly 그래프 컨테이너 둥글게 (옵션) */
+.js-plotly-plot {
+  border-radius: 12px !important;
+}
